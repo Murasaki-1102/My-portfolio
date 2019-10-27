@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6em;
+  color: #fff;
+  background-color: #000000;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+p {
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+a {
+  color: #C0C0C0;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+header {
+  height: 100vH;
+  margin-bottom: 10rem;
+}
+
+
+.navbar {
+  color: #fff;
+  background-color: transparent;
+  padding: 2rem;
+  z-index: 10;
+  transition: .5s;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #fff;
+}
+
+.active {
+  background-color: transparent !important;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-scroll{
+  /* background-color: #fff; */
+  box-shadow: 0 3px 10px 1px rgba(255, 255, 255, 0.1);
+}
+
+.header-flex {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.header-comment {
+  color: #fff;
+  text-align: center;
+  font-family: 'Economica', sans-serif;
+}
+
+.header-en {
+  font-size: 2rem;
+  letter-spacing: 7px;
+}
+
+.header-ja {
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+
+.section {
+  margin-top: 1rem;
+  position: relative;
+  padding: 2rem;
+  box-shadow: 0 3px 10px 1px rgba(255, 255, 255, 0.1);
+}
+
+.section-title {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  margin: 2rem;
+  letter-spacing: 3px;
+}
+
+.small-img img{
+  text-align: center;
+  width: 80%;
+}
+
+.section-des {
+  padding-top: 2.5rem;
+}
+
+.section-name {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.section-name-ja {
+  display: block;
+  font-size: 3rem;
+  letter-spacing: 5px;
+  margin-top: 1rem;
+}
+
+.section-des-content {
+  position: relative;
+  padding-left: 6rem;
+  margin-top: 4rem;
+}
+
+
+.section-comment {
+  font-size: 1.5rem;
+}
+
+.small-section-title {
+  position: absolute;
+  /* top: 7px; */
+  left: 30px;
+}
+
+.small-section-title h3 {
+  margin-top: 5rem;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1em;
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  position: relative;
+}
+
+.like {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  border: 1px solid #fff;
+  padding: 2rem 2rem 4rem 2rem;
+}
+
+.like-icon {
+  text-align: center;
+  font-size: 8rem;
+  margin-bottom: 1rem;
+}
+
+.like h3 {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.like-comment {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.experience {
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.experience-icon {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.experience h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.experience-comment {
+  line-height: 1.2;
+}
+
+.intro {
+  margin: 0 auto 4rem;
+}
+
+.intro h3 {
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+
+.portfolio {
+  margin: 0 auto 3rem;
+  text-align: center;
+}
+
+.port-img {
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.port-img img {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+
+.port-img img:hover {
+  transform: scale(1.2);
+  opacity: .6;
+}
+
+.portfolio h4 {
+  font-size: 2rem;
+}
+
+.sns-btn a {
+  font-size: 3rem;
+  padding: 2rem;
+}
