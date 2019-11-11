@@ -1,0 +1,28 @@
+.wrap {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slideContents {
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.slideContentsL {
+    transform: translate(-1170px, 0);
+}
+
+.slideContentsR {
+    transform: translate(1170px, 0);
+}
+
+.slideContentsL.show {
+    transform: translate(0px, 0) !important;
+}
+
+.slideContentsR.show {
+    transform: translate(0px, 0) !important;
+}
