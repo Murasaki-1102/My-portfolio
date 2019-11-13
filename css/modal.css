@@ -1,0 +1,16 @@
+.modal {
+    color: #000;
+}
+
+.modal p {
+    margin-bottom: 0;
+}
+
+.modal-title {
+    margin-left: 40%;
+}
+
+.modal-body_comment{
+    padding: 1rem;
+}
+

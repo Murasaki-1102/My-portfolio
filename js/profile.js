@@ -1,5 +1,5 @@
 $(function () {
-
+    //scroll
     $(window).scroll(function () {
         if ($(window).scrollTop() > 50) {
             $('.navbar').addClass('nav-scroll');
@@ -17,7 +17,7 @@ $(function () {
         return false;
     });
 
-
+    //slide
     var slideContents = document.querySelectorAll('.slideContents');
     var slideContentsRect = [];
     var slideContentsTop = [];
@@ -48,6 +48,24 @@ $(function () {
             }
         }
     });
+
+    // //modal
+    // var winScrollTop;
+    // $('.modal-open').each(function(){
+    //     $(this).on('click',function(){
+    //         winScrollTop = $(window).scrollTop();
+    //         var target = $(this).data('target');
+    //         var modal = document.getElementById(target)
+    //         $(modal).fadeIn();
+    //         $('.overlay').fadeIn();
+    //         return false;
+    //     })
+    // });
+    // $('.overlay, .modal-close').on('click',function(){
+    //     $('.overlay, .modal').fadeOut();
+    //     $('body,html').stop().animate({scrollTop:winScrollTop},100);
+    //     return false;
+    // })
 
 
 });
